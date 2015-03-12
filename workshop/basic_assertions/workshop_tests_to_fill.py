@@ -34,5 +34,4 @@ class TestMyFantasticClass(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    pass
-    # WRITE TEST EXECUTOR
+    unittest.main()
