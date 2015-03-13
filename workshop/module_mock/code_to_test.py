@@ -3,12 +3,12 @@ from checker_decorator import checker
 
 
 class MyFantasticHelper(object):
-    @checker
+    #@checker
     def do_usually_nothing(self, bool_value=False):
         if bool_value is True:
             raise Exception("Ops bool value is True")
 
-    @checker
+    #@checker
     def do_something(self, attr):
         if isinstance(attr, int):
             raise Exception("We don't want get int!")
@@ -19,7 +19,7 @@ class MyFantasticHelper(object):
         else:
             return attr
 
-    @checker
+    #@checker
     def get_number(self, number):
         return number
 
